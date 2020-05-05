@@ -1,4 +1,4 @@
-package priv.TzGin.prototype.shallowclone;
+package priv.TzGin.prototype.singleton;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 public class Test {
 
     public static void main(String[] args) {
-        ConcretePrototype concretePrototype = new ConcretePrototype();
+        ConcretePrototype concretePrototype = ConcretePrototype.getInstance();
         concretePrototype.setAge(18);
         concretePrototype.setName("TzGin");
         List<String> hobbies = new ArrayList<String>();

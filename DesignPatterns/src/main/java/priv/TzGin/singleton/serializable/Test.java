@@ -12,9 +12,8 @@ public class Test {
         SerializableSingleton s1 = null;
         SerializableSingleton s2 = SerializableSingleton.getInstance();
 
-        FileOutputStream fos = null;
         try {
-            fos = new FileOutputStream("SerializableSingleton.obj");
+            FileOutputStream fos = new FileOutputStream("SerializableSingleton.obj");
             ObjectOutputStream oos = new ObjectOutputStream(fos);
             oos.writeObject(s2);
             oos.flush();

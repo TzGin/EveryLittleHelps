@@ -1,4 +1,4 @@
-package priv.TzGin.prototype.shallowclone;
+package priv.TzGin.prototype.deep;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +14,7 @@ public class Test {
         hobbies.add("robot");
         concretePrototype.setHobbies(hobbies);
 
-        ConcretePrototype clone = concretePrototype.clone();
+        ConcretePrototype clone = concretePrototype.deepCloneHobbies();
         clone.getHobbies().add("reading");
 
         System.out.println("原型对象：" + concretePrototype);

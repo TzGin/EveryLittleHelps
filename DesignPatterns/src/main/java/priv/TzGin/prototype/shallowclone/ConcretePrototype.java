@@ -4,6 +4,12 @@ import lombok.Data;
 
 import java.util.List;
 
+/**
+ * 浅克隆
+ * 基本类型能复制
+ * 引用类型只复制了引用对应的地址
+ * 一旦引用发生改变，所有浅克隆后的引用都会发生改变
+ */
 @Data
 public class ConcretePrototype implements Cloneable {
 
@@ -19,13 +25,5 @@ public class ConcretePrototype implements Cloneable {
             e.printStackTrace();
             return null;
         }
-    }
-
-    @Override
-    public String toString() {
-        return "ConcretePrototype{" +
-                "age=" + age +
-                ", name='" + name + '\'' +
-                '}';
     }
 }

@@ -7,7 +7,7 @@ public class ContainerSingleton {
 
     private ContainerSingleton(){}
 
-    private static Map<String, Object> ioc = new ConcurrentHashMap<>();
+    private static Map<String, Object> ioc = new ConcurrentHashMap<String, Object>();
 
     public static Object getInstance(String className){
         Object instance = null;
