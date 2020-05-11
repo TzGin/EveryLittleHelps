@@ -7,6 +7,7 @@ import java.util.Vector;
 public class ConnectionPool {
 
     private final Vector<Connection> pool;
+
     private final String url = "jdbc:mysql://localhost:3306/test";
     private final String username = "root";
     private final String password = "root";
