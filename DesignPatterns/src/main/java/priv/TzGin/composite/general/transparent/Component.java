@@ -3,13 +3,13 @@ package priv.TzGin.composite.general.transparent;
 //抽象根节点
 public abstract class Component {
 
-    private String name;
+    protected String name;
 
     public Component(String name) {
         this.name = name;
     }
 
-    public abstract void operation();
+    public abstract String operation();
 
     public boolean addChild(Component component) {
         throw new UnsupportedOperationException("addChild not supported");

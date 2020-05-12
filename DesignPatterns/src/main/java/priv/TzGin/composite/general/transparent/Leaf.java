@@ -6,7 +6,7 @@ public class Leaf extends Component {
     }
 
     @Override
-    public void operation() {
-
+    public String operation() {
+        return name;
     }
 }
