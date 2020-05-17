@@ -22,6 +22,9 @@ public class DispatcherServlet extends HttpServlet {
     }
 
     private void doDispatch(HttpServletRequest req, HttpServletResponse resp) {
+        String url = req.getRequestURI();
+        Method method = handlerMapping.get(url);
+//        method.invoke();
     }
 
     @Override
