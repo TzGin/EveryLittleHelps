@@ -6,7 +6,7 @@ public class DomesticPaymentFactory extends PaymentFactory{
     }
 
     protected IPayment createWeChatPay(){
-        return new WeChatPay();
+        return new WechatPay();
     }
 
     protected IPayment createUnionPay(){
