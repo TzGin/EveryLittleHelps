@@ -1,4 +1,4 @@
-package priv.TzGin.demo;
+package priv.TzGin.demo.service;
 
 public interface IDemoService {
 

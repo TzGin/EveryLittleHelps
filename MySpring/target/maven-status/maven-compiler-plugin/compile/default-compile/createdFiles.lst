@@ -1,0 +1,9 @@
+priv\TzGin\mvcframework\annotation\MyRequestMapping.class
+priv\TzGin\mvcframework\annotation\MyAutowired.class
+priv\TzGin\demo\mvc\action\DemoAction.class
+priv\TzGin\mvcframework\MyDispatchServlet.class
+priv\TzGin\demo\service\impl\DemoService.class
+priv\TzGin\mvcframework\annotation\MyService.class
+priv\TzGin\demo\service\IDemoService.class
+priv\TzGin\mvcframework\annotation\MyRequestParam.class
+priv\TzGin\mvcframework\annotation\MyController.class

@@ -10,7 +10,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="MySpring" target="1.5" />
+      <module name="MySpring" target="1.6" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MySpring" options="-verbose -bootclasspath &quot;$PROJECT_DIR$/../../../../Program Files/Java/jdk1.8.0_241/jre/lib/rt.jar&quot;" />
+    </option>
   </component>
 </project>

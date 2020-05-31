@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="person" class="priv.tzgin.project.entity.Person">
+<!--        <constructor-arg index="0" value="TzGin"/>-->
+<!--        <constructor-arg index="1" value="18"/>-->
+        <property name="name" value="TzGin"/>
+        <property name="age" value="18"/>
+    </bean>
+</beans>

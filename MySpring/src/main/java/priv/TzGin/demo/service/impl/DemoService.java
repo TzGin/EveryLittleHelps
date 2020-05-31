@@ -1,5 +1,6 @@
-package priv.TzGin.demo;
+package priv.TzGin.demo.service.impl;
 
+import priv.TzGin.demo.service.IDemoService;
 import priv.TzGin.mvcframework.annotation.MyService;
 
 /**
